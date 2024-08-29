@@ -1,0 +1,29 @@
+.parent{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    transition: 3s;
+    margin: 60px auto;
+    transform-style: preserve-3d;
+}
+#parent:hover{
+    transform:rotateY(180deg);
+
+}
+.A{
+    width: auto;
+    height: auto;
+    background-color: brown;
+    position: absolute;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+.B{
+    width: 100px;
+    height: auto;
+    background-color: cornflowerblue;
+    position: relative;
+    z-index: 4;
+    backface-visibility: hidden;
+}

@@ -1,0 +1,33 @@
+.parent{
+       border: 2px solid chartreuse;
+     height: 600px;
+     
+
+}
+.child{
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+#one{
+    background-color: red;
+    transition-timing-function: linear;
+
+}
+#two{
+    background-color: greenyellow;
+    transition-timing-function: ease-in;
+}
+#three{
+    background-color: blueviolet;
+    transition-timing-function:ease-out;
+
+}
+#four{
+    background-color: blue;
+    transition-timing-function:ease-in-out;
+
+}
+.parent:hover .child{
+    margin-left: 1240px;
+}

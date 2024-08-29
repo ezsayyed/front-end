@@ -1,0 +1,16 @@
+.container{
+
+    border: 10px solid blue;
+    height: 2000px;
+    padding: 200px;
+    background-color: 10px solid rgb(27, 207, 99);
+}
+.box{
+    border:20px solid red;
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+    background-color: rgb(230, 230, 239);
+    
+
+}

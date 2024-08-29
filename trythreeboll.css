@@ -1,0 +1,25 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.boll{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 50px;
+    background-color: rgb(14, 221, 193);
+    rotate: 360deg;
+    background: linear-gradient(pink,skyblue,red);
+    animation: 900ms ease-in 0s infinite alternate none running bounce;
+
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(85vh) rotate(360deg);
+    }
+}

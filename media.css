@@ -1,0 +1,16 @@
+div{
+    border: 2px solid pink;
+
+}
+div{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+@media(max-width:400px){
+    div{
+        background-color:aquamarine;
+        border-radius: 50%;
+    }
+   
+}

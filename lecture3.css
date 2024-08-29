@@ -1,0 +1,10 @@
+.one{
+
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+:nth-last-of-type(1){
+    background-color: aquamarine;
+    margin: 200px;
+}

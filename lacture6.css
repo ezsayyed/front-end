@@ -1,0 +1,13 @@
+.world{
+    width: 2000px;
+    height: 20px;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    background-color: darkred;
+}
+.image{
+left: 50%;
+
+}

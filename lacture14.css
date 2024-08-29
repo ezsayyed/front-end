@@ -1,0 +1,46 @@
+.parent {
+    margin: auto;
+    padding: auto;
+    border: 1px solid rgb(69, 66, 66);
+    background-color: rgb(49, 49, 48);
+    text-align: center;
+    color: #fff;
+  }
+  .child {
+    /* margin: 10px; */
+    background-color: rgb(77, 81, 81);
+    /* display: flex; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    display: block;
+    height: 50px;
+    text-align: center;
+    /* display: block; */
+    position: sticky;
+    
+  
+  }
+  a {
+    color: white;
+  }
+  .activ {
+    margin: 0;
+    padding: 10px;
+    
+    position: relative;
+  top: 16px;
+  }
+  .card0{
+    text-align: center;
+  }
+  .card1{
+    display: inline;
+  }
+  .card2{
+    
+    display: inline;
+  }
+  .card3{
+    display: inline;
+    
+  }

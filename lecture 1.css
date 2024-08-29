@@ -1,0 +1,48 @@
+/*a{
+    background-color: aquamarine;
+}
+.two{
+    background-color: blue;
+}
+a[href="http://google.com"]{
+    background-color: rebeccapurple;
+}/* start with "http"*/
+
+a[href="http://google.com"]{
+    background-color: rebeccapurple;
+}
+
+a[href$='https']
+{background-color: rgb(56,153,51);
+
+}
+a[href]
+a[href*='facebook']{
+    background-color: rgb(153,114,51);
+}
+
+
+div p{
+    background-color: red;
+    
+}
+
+/*span p{
+    background-color: bisque;
+}*/
+
+ol > li{
+    border: 2px solid rosybrown;
+}
+ 
+
+div{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+div:hover{
+    background-color: green;
+    border-radius: 50%;
+}
